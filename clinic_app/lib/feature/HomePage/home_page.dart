@@ -30,6 +30,7 @@ class _HomePageState extends State<HomePage> {
             child: Padding(
               padding: paddingMedium,
               child: Column(
+                spacing: 20,
                 children: [
                   Container(
                     height: 200,
@@ -75,6 +76,21 @@ class _HomePageState extends State<HomePage> {
                         ],
                       ),
                     ),
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        TextService.getText("home", "services"),
+                        style: Theme.of(context).textTheme.titleMedium
+                            ?.copyWith(fontWeight: FontWeight.normal),
+                      ),
+                      TextButton(
+                        style: TextButton.styleFrom(foregroundColor: primary),
+                        onPressed: () {},
+                        child: Text(TextService.getText("home", "all")),
+                      ),
+                    ],
                   ),
                 ],
               ),

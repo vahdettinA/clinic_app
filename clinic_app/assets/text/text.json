@@ -3,6 +3,8 @@
         "appBarTitle":"logo",
         "headerTitle":"Sağlığınız İçin Yanınızdayız",
         "headerSubTitle": "Uzman kadromuz ve modern\nekipmanlarımızla hizmetinizdeyiz",
-        "headerButtonTitle":"Randevu Al"
+        "headerButtonTitle":"Randevu Al",
+        "services":"Sunduğumuz Hizmetler",
+        "all":"Tümü"
     }
 }
